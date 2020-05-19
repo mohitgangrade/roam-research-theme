@@ -1,0 +1,85 @@
+// The Left Sidebar Menu
+.roam-sidebar-container{
+    background: #BDD5EA !important;
+    color: #444;
+}
+.roam-sidebar-container .page{
+    font-weight: 600 !important;
+    color: #444 !important;
+    margin-bottom: 5px;
+}
+.roam-sidebar-container .page:hover{
+    background: #d1e9ff !important;
+}
+.starred-pages-wrapper{
+    padding: 8px 0 !important;
+}
+.starred-pages-wrapper .flex-h-box{
+    padding: 5px 20px;
+}
+.starred-pages a div{
+    padding: 5px 20px !important;
+}
+
+// All Reference tags.
+.rm-page-ref{
+    font-weight: 600;
+    // color: #444;
+    background-color: #49ffff20;
+    color: #055384;
+}
+.rm-page-ref-tag{
+    background-color: #d1e9ff70;
+    color: #666;
+    margin-left: 3px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    font-size: 12px;
+}
+.rm-page-ref-tag:hover{
+    background-color: #d1e9ff;
+}
+
+// The title of the note
+.rm-title-display{
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 30px;
+}
+
+// The right sidebar that contains notes.
+#right-sidebar{
+    flex: 1 0 45% !important;
+    background: #fcfcfc !important;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-left: 1px solid #ddd;
+    box-shadow: -3px 0px 4px #eee;
+}
+
+// The label that says "N Linked References"
+.rm-reference-container strong:first-of-type{
+    color: #333;
+}
+
+// References at the bottom of the note in the primary container.
+.roam-center .rm-reference-container{
+    background: #fcfcfc;
+    border: 3px;
+    padding: 10px 0;
+}
+
+// Make reference blocks and notes look like cards
+
+.rm-ref-page-view{
+    margin-top: 20px !important;
+}
+.rm-reference-item{
+    background: #fff;
+    border-radius: 3px;
+    padding: 15px 0;
+    box-shadow: 3px 3px 5px #ddd;
+    border: 1px solid #ddd;
+}
+.rm-reference-item .rm-page-ref-tag{
+    font-size: 10px;
+}
